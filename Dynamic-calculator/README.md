@@ -1,6 +1,6 @@
 <div align=center>
 <h1 align=center>Dynamic-calculator</h1>
-<p><b>This project has been made during summer training to practice reactjs.<br>eval() function is used in this project. Check this <a href="https://roopaksh1.github.io/Calculator/">Calculator</a> with no eval() function.</b></p>
+<p>This project has been made during summer training to practice DOM Manipulation and Event Handling.<br>eval() function is used in this project. For Calculator with no eval() function click <a href="https://roopaksh1.github.io/Calculator/">here.</a></p>
 <a href=https://dynamic-calc.netlify.app><img src=https://img.shields.io/badge/%F0%9F%91%89-LIVE-success></a>
 </div>
 

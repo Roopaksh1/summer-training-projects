@@ -1,6 +1,6 @@
 <div align=center>
 <h1 align=center>Salary-calculator</h1>
-<p><b>This project has been made during summer training to practice reactjs.</b></p>
+<p>This project is for practicing DOM manipulation and Event handling.</p>
 <a href=https://salarycalculator.netlify.app/><img src=https://img.shields.io/badge/%F0%9F%91%89-LIVE-success></a>
 </div>
 
