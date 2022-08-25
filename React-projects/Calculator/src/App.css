@@ -1,0 +1,58 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 1.5rem;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.calc-body {
+  width: 40rem;
+  height: 40rem;
+  margin: auto;
+  background-color: #edf2f4;
+  padding: 1rem;
+  border: black solid 0.2rem;
+  border-radius: 1.5rem;
+}
+
+.buttons-body {
+  height: 8rem;
+  font-size: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+button {
+  width: calc(35rem / 4);
+  height: 7rem;
+  border: 0.2rem black solid;
+  font-size: 3rem;
+  text-align: center;
+  background-color: #fefae0;
+}
+
+.screen {
+  height: 7rem;
+  text-align: end;
+  font-size: 3rem;
+  border: black solid 0.2rem;
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+  line-height: 8rem;
+  padding-right: 0.5rem;
+}
+
+button:active {
+  background-color: #fee0e0;
+}
