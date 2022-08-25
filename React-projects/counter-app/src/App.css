@@ -1,0 +1,37 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  min-width: 6rem;
+  min-height: 6rem;
+  border-radius: 1.5rem;
+  font-size: 3rem;
+  background-color: chartreuse;
+}
+
+p {
+  flex: 1 1 0;
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: bold;
+  
+}
+
+.wrapper {
+  width: 50rem;
+  margin: 30rem auto;
+  border: black solid 2px;
+  text-align: center;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
