@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/e5e5f9413c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>TIC TAC TOE</title>
+  </head>
+  <body>
+    <h1>TIC TAC TOE</h1>
+    <div class="menu-screen">
+      <h2>Select Game Mode</h2>
+      <div class="btn-wrapper">
+        <button class="computer">VS Computer</button>
+        <button class="two-players">VS Player</button>
+      </div>
+    </div>
+    <div class="game-screen hidden">
+      <h2 class="result-screen"></h2>
+      <div class="board">
+        <div class="grid" data-index="zero-zero"></div>
+        <div class="grid" data-index="zero-one"></div>
+        <div class="grid" data-index="zero-two"></div>
+        <div class="grid" data-index="one-zero"></div>
+        <div class="grid" data-index="one-one"></div>
+        <div class="grid" data-index="one-two"></div>
+        <div class="grid" data-index="two-zero"></div>
+        <div class="grid" data-index="two-one"></div>
+        <div class="grid" data-index="two-two"></div>
+      </div>
+      <p class="show-turn">Player 1 turn</p>
+      <button class="play-again hidden">Play Again</button>
+    </div>
+  </body>
+</html>
