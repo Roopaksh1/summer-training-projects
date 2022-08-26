@@ -1,0 +1,107 @@
+:root {
+  font-size: 62.5%;
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+  width: 60rem;
+  height: 60rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: black solid 2px;
+  background-color: aliceblue;
+}
+
+label {
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 3.5rem;
+  text-align: center;
+  background-color: #e8f0fe;
+}
+
+input[type="number"] {
+  margin-left: 1rem;
+  width: 16.64rem;
+  background-color: #e8f0fe;
+}
+
+span {
+  position: relative;
+}
+
+#loan-amount + span::before, #interest-rate + span::before, #loan-time + span::before {
+  width: 3rem;
+  position: absolute;
+  font-size: 2.5rem;
+  content: "₹";
+  text-align: center;
+}
+
+#interest-rate + span::before {
+  content: "%";
+}
+
+#loan-time + span::before {
+  content: "Yr";
+}
+
+button {
+  width: 12rem;
+  height: 5rem;
+  font-size: 3rem;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #c6b8b8;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+  border: red solid 2px;
+}
+
+
+input:invalid:not(:focus):not(:placeholder-shown) + span::after {
+  position: absolute;
+  content: "Enter valid input";
+  top: 2.5rem;
+  left: -13.5rem;
+  font-size: 1.5rem;
+  width: 15rem;
+  color: red;
+}
+
+input:valid:not(:focus):not(:placeholder-shown) {
+  border: green solid 2px;
+}
+
+.result {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
